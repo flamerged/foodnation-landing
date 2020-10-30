@@ -1,0 +1,34 @@
+.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../images/banner.jpg");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 3px 30px rgba(0,0,0,0.4);
+}
+
+.banner-info {
+    color: white;
+}
+
+.banner-info p, 
+.banner-info h1
+{
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.banner-info p {
+    opacity: .8;
+    font-size: 20px;
+}
+
+.banner-info a {
+    color: white;
+    text-decoration: none;
+    background-color: #E6480F;
+    padding: 16px 36px;
+    border-radius: 50px;
+    display: inline-block;
+}

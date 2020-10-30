@@ -1,0 +1,39 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Proza+Libre:wght@400;500&display=swap");
+
+/* Fontawesome */
+@import url("https://use.fontawesome.com/releases/v5.14.0/css/all.css");
+
+@import url("components/banner.css");
+@import url("components/cards.css");
+@import url("components/footer.css");
+
+/* Utilities */
+body {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Proza Libre", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Custom design below! */
+
+.main {
+  width: 1200px;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}

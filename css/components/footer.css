@@ -1,0 +1,27 @@
+.footer {
+    height: 200px;
+    background-color: #324376;
+    width: 100%;
+    justify-self: flex-end;
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #E6480F;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    font-size: 40px;
+}
+
+.social-icons i:hover {
+    text-shadow: 0 0 15px rgba(255,255,255,0.2);
+}
