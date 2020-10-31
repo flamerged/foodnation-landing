@@ -13,15 +13,15 @@
 
 .footer a {
     text-decoration: none;
-    color: #E6480F;
+    color: #e6480f;
 }
 
 .social-icons {
     display: flex;
-    gap: 15px;
+    grid-gap: 15px;
     font-size: 40px;
 }
 
 .social-icons i:hover {
-    text-shadow: 0 0 15px rgba(255,255,255,0.2);
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
 }
